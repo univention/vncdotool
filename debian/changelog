@@ -1,3 +1,9 @@
+vncdotool (0.3.1) unstable; urgency=medium
+
+  * Fix bug with DesktopSize pseudo-encoding
+
+ -- Richard Ulmer <ulmer@univention.de>  Wed, 06 Sep 2017 14:22:51 +0200
+
 vncdotool (0.3.0) lucid; urgency=low
 
   * upstream update
