@@ -32,7 +32,10 @@ upload:
 	twine upload dist/$(shell python setup.py --fullname).*
 
 docs:
-		$(MAKE) -C docs/ html
+	$(MAKE) -C docs/ html
+
+clean:
+	$(MAKE) -C docs/ clean
 
 test:
 	nosetests tests/unit

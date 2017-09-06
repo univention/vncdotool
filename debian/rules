@@ -2,3 +2,7 @@
 
 %:
 	dh $@ --with 'python_support'
+
+override_dh_auto_build:
+	make docs
+	dh_auto_build --with 'python_support'
