@@ -37,5 +37,5 @@ docs:
 clean:
 	$(MAKE) -C docs/ clean
 
-test:
-	nosetests tests/unit
+#test:
+#	nosetests tests/unit
