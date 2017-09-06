@@ -1,4 +1,4 @@
-vncdotool (0.11.2.1) unstable; urgency=medium
+vncdotool (0.11.2-1) unstable; urgency=medium
 
   * Build docs automatically
 
